@@ -2,6 +2,7 @@ const dotenv = require("dotenv").config();
 const connectDb = require("./db/connect.js");
 const express = require("express");
 const mongoSanitize = require("express-mongo-sanitize");
+const errorHandler = require("./middleware/errorHandler.js");
 
 
 
@@ -18,7 +19,12 @@ async function runServer() {
         console.log(`Server is running on port ${port}`);
     })
 }
+app.use((req, res, next) => {
+    const error = new Error(`Not Found -  ${req.originalUrl}`);
+    error.statusCode = 404;
+    next(error);
+})
+app.use(errorHandler);
 
 
 runServer();
-git
