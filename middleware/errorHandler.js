@@ -1,4 +1,5 @@
 const appError = require("../utils/AppError.js")
+
 const validationErrorHandler = (error) => {
     const errors = Object.values(error.errors).map(val => val.message);
     const messages = errors.join(', ');
