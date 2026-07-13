@@ -43,4 +43,6 @@ const updateOrder = asyncHandler(async (req, res, next) => {
 
     });
 });
+const createNewOrder = asyncHandler(async (req, res, next) => {
+});
 module.exports = { getAllOrders, getOrderById, updateOrder };
