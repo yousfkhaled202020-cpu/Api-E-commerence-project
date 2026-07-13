@@ -8,15 +8,15 @@ const productSchema = new Schema(
     {
         name: {
             type: String,
-            required: [true,"Please Enter Product name"]
+            required: [true, "Please Enter Product name"]
         },
         description: {
             type: String,
-            minlength:3
+            minlength: 3
         },
         price: {
             type: Number,
-            required: [true,"Please Enter Product price"],
+            required: [true, "Please Enter Product price"],
             min: 0
         },
         stock: {

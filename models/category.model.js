@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const categorySchema = new Schema({
     name: {
         type: String,
-        required:[true ,"Please Enter the Name of the Category"],
+        required: [true, "Please Enter the Name of the Category"],
         unique: true,
         trim: true
     },
@@ -15,7 +15,7 @@ const categorySchema = new Schema({
     },
     slug: {
         type: String,
-        required:[true ,"Please Enter the slug of the Category"],
+        required: [true, "Please Enter the slug of the Category"],
         unique: true,
         trim: true
     }
