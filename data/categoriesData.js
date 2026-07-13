@@ -1,22 +1,22 @@
 const elctronicsCategory = {
     name: "Electronics",
     description: "Upgrade your lifestyle with our premium Electronics collection.  Discover top brands, reliable performance, and unbeatable quality all in one place.",
-    slug:"electronics"
+    slug: "electronics"
 }
 const SkincareCategory = {
     name: "Skin Care",
     description: "Unlock your Glass Skin With Our Products",
-    slug:"skincare"
+    slug: "skincare"
 }
 const clothesCategory = {
     name: "clothes",
     description: "Unlock your inner beauty with the lastest Fashion trends",
-    slug:"clothes"
+    slug: "clothes"
 }
 
 const appliancesCategory = {
     name: "Appliances",
     description: "Upgrade your home with our appliancies",
-    slug:"home-appliances"
+    slug: "home-appliances"
 }
-module.exports =[elctronicsCategory , SkincareCategory , clothesCategory , appliancesCategory];
+module.exports = [elctronicsCategory, SkincareCategory, clothesCategory, appliancesCategory];
