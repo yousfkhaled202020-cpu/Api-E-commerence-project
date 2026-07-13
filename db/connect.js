@@ -1,12 +1,12 @@
-const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
-const dbUrl = process.env.DATABASE_URL;
-async function runDb(){
-    try{
+const mongoose = require("mongoose");
+const dbUrl = process.env.MONGO_URI;
+async function connectDB() {
+    try {
         const result = await mongoose.connect(dbUrl);
-            console.log("Database is connected");
-    }catch(error){
-        console.log(error , error.message);
+        console.log("Database is connected");
+    } catch (error) {
+        console.log(error, error.message);
     }
-    }
-module.exports = runDb;
+}
+module.exports = connectDB;
