@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node seed.js"
   },
   "keywords": [],
   "author": "",
@@ -12,13 +15,12 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
+    "express": "^4.22.2",
     "express-mongo-sanitize": "^2.2.0",
     "express-validator": "^7.3.2",
     "mongoose": "^9.7.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-
   }
 }
