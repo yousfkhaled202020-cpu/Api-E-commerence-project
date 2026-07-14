@@ -18,7 +18,7 @@ app.use(mongoSanitize())
 app.use("/api/categories", categoriesRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/cart", cartRouter);
-app.use("/api/order", orderRouter);
+app.use("/api/orders", orderRouter);
 
 // 404 error handler 
 app.use((req, res, next) => {
