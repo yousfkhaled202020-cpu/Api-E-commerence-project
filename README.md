@@ -1,15 +1,16 @@
 
-## E-commerce Api 
+## E-commerce API
 
 ### Introduction 
 
-**Description**: I built an API software that handles CRUD operations of orders , cart , products , categories and throws
-easy-to-understand error messages to the user.
+**Description**: I built an API software that handles CRUD operations of orders , cart , products , categories
+and throws easy-to-understand error messages to the user.
+
 **The Tech Stack**: Node.js, Express.js, MongoDB, Mongoose.
 
 ### Features
 
-- Categories API : 5 Main Advantages :
+- Categories API :
  1. The Client is able to read all categories.
  2. The Client is able to read specific categories by its id .
  3. The Client is able to create a new category .
@@ -52,10 +53,15 @@ easy-to-understand error messages to the user.
 
 ###  Environment Variables
 .env file variables
+
 |Name|      |Explaination|                 |Example|
+
 | :--- |     :--- |                         :--- |
+
 |PORT|      |localhost port|               |3000|
+
 |NODE_ENV|  |environment of the project|   |development|
+
 |MONGO_URI| |database connection string|   |mongodb://localhost:27017/database_name|
 
 ### API Endpoints
@@ -111,4 +117,3 @@ easy-to-understand error messages to the user.
 - REAdME 
 
 **Thanks for reading! I hope this file helped you understand the project structure and setup. Feel free to explore the code!**
-
