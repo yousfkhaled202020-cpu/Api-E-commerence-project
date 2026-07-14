@@ -51,18 +51,17 @@ and throws easy-to-understand error messages to the user.
 4. npm run seed
 5. npm run dev
 
-###  Environment Variables
+
+### Environment Variables
+
 .env file variables
 
-|Name|      |Explaination|                 |Example|
+| Name | Explanation | Example |
+| :--- | :--- | :--- |
+| **PORT** | localhost port | `3000` |
+| **NODE_ENV** | environment of the project | `development` |
+| **MONGO_URI** | database connection string | `mongodb://localhost:27017/database_name` |
 
-| :--- |     :--- |                         :--- |
-
-|PORT|      |localhost port|               |3000|
-
-|NODE_ENV|  |environment of the project|   |development|
-
-|MONGO_URI| |database connection string|   |mongodb://localhost:27017/database_name|
 
 ### API Endpoints
 
