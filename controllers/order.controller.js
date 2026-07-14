@@ -46,7 +46,7 @@ const updateOrder = asyncHandler(async (req, res, next) => {
 });
 const createNewOrder = asyncHandler(async (req, res, next) => {
     const foundcart = await cart.findOne();
-    if (foundcart.items.length === 0) {
+    if (!foundcart || foundcart.items.length === 0) {
         return next(new appError("Your cart is empty", 400))
     }
     let orderItems = [];
