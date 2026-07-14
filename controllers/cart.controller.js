@@ -40,6 +40,9 @@ const updateItem = asyncHandler(async (req, res, next) => {
     const productId = req.params.id;
     const { quantity } = req.body;
     let foundCart = await cart.findOne();
+    if (!foundCart) {
+        return next(new appError("Cart not found", 404));
+    }
     const founditem = foundCart.items.find(item => item.product == productId);
     if (!founditem) {
         return next(new appError("product not found", 404));
@@ -62,6 +65,9 @@ const updateItem = asyncHandler(async (req, res, next) => {
 const deleteItemById = asyncHandler(async (req, res, next) => {
     const productId = req.params.id;
     let foundCart = await cart.findOne();
+    if (!foundCart) {
+        return next(new appError("Cart not found", 404));
+    }
     const founditem = foundCart.items.find(item => item.product == productId);
     if (!founditem) {
         return next(new appError("product not found", 404));
