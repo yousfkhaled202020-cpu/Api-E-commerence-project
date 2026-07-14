@@ -80,7 +80,7 @@ const deleteProduct = asyncHandler(async (req, res, next) => {
 
     });
 });
-
+//exporting modules
 module.exports = {
     getAllProducts,
     getProductById,
