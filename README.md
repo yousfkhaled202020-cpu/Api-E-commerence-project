@@ -71,7 +71,7 @@ and throws easy-to-understand error messages to the user.
  2.  GET https://localhost:3000/api/categories/:id "Get category by id "
  3.  POST https://localhost:3000/api/categories    "create new category"
  4. PATCH https://localhost:3000/api/categories/:id "update category"
- 5. DELETE https://localhost:3000/api/categories   "delete category"
+ 5. DELETE https://localhost:3000/api/categories/:id   "delete category"
 
 ##### Section 2 : Products endpoints :
 
@@ -79,7 +79,7 @@ and throws easy-to-understand error messages to the user.
  2.  GET    https://localhost:3000/api/products/:id "Get product by id "
  3.  POST   https://localhost:3000/api/products     "create new product"
  4.  PATCH  https://localhost:3000/api/products/:id  "update product"
- 5.  DELETE https://localhost:3000/api/products   " delete product"
+ 5.  DELETE https://localhost:3000/api/products/:id   " delete product"
 
 ##### Section 3 : Cart endpoints :
 
@@ -107,12 +107,14 @@ and throws easy-to-understand error messages to the user.
  6. node_modules/folder that carries the modules and packages.
  7. routes/      folder that carries the routes of each api .
  8. utils/       folder that carries the customized errors "app errors" and the async handler.
- 9. root files:
+ 9. postman/     folder that carries postman collection and envirnment.
+ 10. config/     folder that carries app-wide configuration and constants.
+ 11. root files:
 - app.js : server
 - .env : environment variables
 - .env.example : environment variables with no actual values
 - .gitignore : it carries the files that wont be uploaded to github.
 - seed.js : data seeder
-- REAdME 
+- README : current
 
 **Thanks for reading! I hope this file helped you understand the project structure and setup. Feel free to explore the code!**
