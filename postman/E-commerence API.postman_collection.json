@@ -1,0 +1,1499 @@
+{
+  "info": {
+    "_postman_id": "912ea646-bf04-4632-8977-827f26aac4b1",
+    "name": "E-commerence API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55897719",
+    "_collection_link": "https://go.postman.co/collection/55897719-912ea646-bf04-4632-8977-827f26aac4b1?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Categories",
+      "item": [
+        {
+          "name": "{{baseUrl}}/api/categories",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"price\": 199.99\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "GET http://localhost:3000/api/categories",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"tables\",\r\n    \"description\": \"Gadgets and devices\",\r\n    \"slug\":\"tables\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories/6a5276a326e833a941fa69bc",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"tables\",\r\n    \"description\": \"Gadgets and devices\",\r\n    \"slug\":\"tables\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories/6a5276a326e833a941fa69bc",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories",
+                "6a5276a326e833a941fa69bc"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories/6a513cc632c657891cd81fe3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"tables\",\r\n    \"description\": \"Gadgets and devices\",\r\n    \"slug\":\"tables\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories/6a513cc632c657891cd81fe3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories",
+                "6a513cc632c657891cd81fe3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories/6a5276a326e833a941fa69bc",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"slug\":\"tabola\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories/6a5276a326e833a941fa69bc",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories",
+                "6a5276a326e833a941fa69bc"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    {\r\n    \"name\": \"booob\",\r\n    \"description\": \" devices\",\r\n    \"slug\":\"Talai\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"booob\",\r\n    \"description\": \" devices\",\r\n    \"slug\":\"Talai\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories/6a5277b326e833a941fa69bd",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories/6a5277b326e833a941fa69bd",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories",
+                "6a5277b326e833a941fa69bd"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories/notARealId123",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/categories/notARealId123",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories",
+                "notARealId123"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categories/507f1f77bcf86cd799439011",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categories/507f1f77bcf86cd799439011",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categories",
+                "507f1f77bcf86cd799439011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/categoriesssss",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/categoriesssss",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "categoriesssss"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "item": [
+        {
+          "name": "{{baseUrl}}/api/products",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/6a513cc632c657891cd81fe4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/6a513cc632c657891cd81fe4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                "6a513cc632c657891cd81fe4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/6a513cc632c657891cd",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/6a513cc632c657891cd",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                "6a513cc632c657891cd"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"name\": \"Test Product\", \"description\": \"A sample product\", \"price\": 49.99, \"stock\": 10, \"category\": \"PUT_A_REAL_CATEGORY_ID_HERE\", \"images\": [], \"inStock\": true }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"name\": \"Test Product\", \"description\": \"A sample product\", \"price\": 49.99, \"stock\": 10, \r\n\"category\": \"6a513cc632c657891cd81fe0\", \"images\": [], \"inStock\": true }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/6a528eb5c29eacd7fd61ba5f",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"price\": 39.99, \"stock\": 5 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/6a528eb5c29eacd7fd61ba5f",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                "6a528eb5c29eacd7fd61ba5f"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/6a528eb5c29eacd7fd61ba5f",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"price\": 39.99, \"stock\": 5 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/6a528eb5c29eacd7fd61ba5f",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                "6a528eb5c29eacd7fd61ba5f"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/6a528eb5c29eacd7fd61ba5f",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/products/6a528eb5c29eacd7fd61ba5f",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                "6a528eb5c29eacd7fd61ba5f"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products?category=6a513cc632c657891cd81fe",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/products?category=6a513cc632c657891cd81fe",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products"
+              ],
+              "query": [
+                {
+                  "key": "category",
+                  "value": "6a513cc632c657891cd81fe",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/?category=6a513cc632c657891cd81fe",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/products/?category=6a513cc632c657891cd81fe",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "category",
+                  "value": "6a513cc632c657891cd81fe",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products?search=samsung",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "/api/products?search=samsung",
+              "path": [
+                "api",
+                "products"
+              ],
+              "query": [
+                {
+                  "key": "search",
+                  "value": "samsung",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products?search=samsung",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost3000/api/products?search=samsung",
+              "protocol": "https",
+              "host": [
+                "localhost3000"
+              ],
+              "path": [
+                "api",
+                "products"
+              ],
+              "query": [
+                {
+                  "key": "search",
+                  "value": "samsung",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"pp\",\r\n        \"description\": \"designed to help you serve heathy and easy meals \",\r\n        \"price\": 10000,\r\n        \"stock\": 400,\r\n        \"category\": {\r\n            \"name\": \"toktok\" \r\n        },\r\n        \"images\": [\r\n            \"https://placehold.co/600x400\"\r\n        ],\r\n        \"inStock\": true\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/products/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"pp\",\r\n    \"description\": \"designed to help you serve heathy and easy meals\",\r\n    \"price\": 10000,\r\n    \"stock\": 400,\r\n    \"category\": \"6a513cc632c657891cd81fe9\",\r\n    \"images\": [\"https://placehold.co/600x400\"],\r\n    \"inStock\": true\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/products/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "products",
+                ""
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "item": [
+        {
+          "name": "{{baseUrl}}/api/cart/items",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"productId\": \"6a513cc632c657891cd81fe4\", \"quantity\": 2 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"productId\": \"6a513cc632c657891cd81fe4\", \"quantity\": 2 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"productId\": \"6a513cc632c657891cd81fe7\", \"quantity\": 1 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"productId\": \"6a513cc632c657891cd81fe7\", \"quantity\": 9288379827983702 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"productId\": \"6a513cc632c657891cd81fe7\", \"quantity\": 9288379827983702 }",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items/6a513cc632c657891cd81fe9",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"price\":\"9893798\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items/6a513cc632c657891cd81fe9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "6a513cc632c657891cd81fe9"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items/6a513cc632c657891cd81fe4",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"quantity\" : 88\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items/6a513cc632c657891cd81fe4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "6a513cc632c657891cd81fe4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items/6a513cc632c657891cd81fe4",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items/6a513cc632c657891cd81fe4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "6a513cc632c657891cd81fe4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items/6a513cc632c657891cd81fe9umlk",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items/6a513cc632c657891cd81fe9umlk",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "6a513cc632c657891cd81fe9umlk"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/cart/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/cart/items/",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"productId\": \"6a513cc632c657891cd81fea\",\r\n    \"quantity\": 9\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/cart/items/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                ""
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Orders",
+      "item": [
+        {
+          "name": "{{baseUrl}}/api/orders",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"productId\": \"6a513cc632c657891cd81fea\",\r\n    \"quantity\": 9\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"shippingAddress\": {\r\n    \"country\": \"Egypt\",\r\n    \"city\": \"Cairo\",\r\n    \"street\": \"Tahrir Street\",\r\n    \"apartmentNumber\": \"12B\",\r\n    \"landmarks\": \"Near the museum\"\r\n  }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/status",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"status\": \"pending\" }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc",
+                "status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/status",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"status\": \"pending\" }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc",
+                "status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/cancel",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/cancel",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc",
+                "cancel"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/cancel",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"status\":\"pending\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc",
+                "status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/cancel",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/orders/6a54f55c4fcc1ed1f217bdbc/cancel",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "orders",
+                "6a54f55c4fcc1ed1f217bdbc",
+                "cancel"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
